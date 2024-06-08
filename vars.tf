@@ -42,3 +42,30 @@ description = "SSH variable for bastion host"
 type = string
 }
 
+# Prod EC2
+
+variable "key_name" {
+  description = " credentials keys to connect to ec2 instance"
+  default = "Prod-API-Astrocure"
+}
+
+variable "instance_type" {
+  description = "instance type for ec2"
+  default = "t3.medium"
+}
+
+variable "security_group" {
+  description = "Name of security group"
+  default = "Prod-Astrovidhi-SG"
+}
+
+variable "tag_name" {
+  description = "Tag Name of for Ec2 instance"
+  default = "prod-api.astrocure.co.in"
+}
+
+variable "ami_id" {
+  description = "AMI ID for RHEL Ec2 instance"
+  default = "ami-0183d80552093ddaf"
+}
+
