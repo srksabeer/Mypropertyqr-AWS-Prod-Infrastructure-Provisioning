@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "terraform_state" {
-  bucket = "prod-Mypropertyqr-terraform-remote-state"
+  bucket = "prod-mypropertyqr-terraform-remote-state"
 
   versioning {
     enabled = true
