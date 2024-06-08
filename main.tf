@@ -12,7 +12,7 @@ module "DYNAMODB" {
 
 */
 
-*/
+/*
 
 # Create Prod myproperty  VPC..
 module "VPC" {
