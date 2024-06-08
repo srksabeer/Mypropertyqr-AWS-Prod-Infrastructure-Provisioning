@@ -13,7 +13,7 @@ module "DYNAMODB" {
 */
 
 
-# Create Prod myproperty  VPC..
+# Create Prod myproperty VPC..
 module "VPC" {
   source = "./Modules/VPC"
   vpc_id = module.VPC.vpc_id
@@ -30,5 +30,11 @@ module "VPC" {
   private-subnet-1-route-table-association_id = module.VPC.vpc_id
   }
 
+
+# Create Prod myproperty SECURITY-GROUP..
+module "SECURITY-GROUP" {
+  source = "./Modules/SECURITY-GROUP"
+  vpc_id = module.VPC.vpc_id
+  }
 
 
