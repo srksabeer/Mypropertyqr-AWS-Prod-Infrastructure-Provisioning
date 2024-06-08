@@ -56,12 +56,12 @@ variable "instance_type" {
 
 variable "security_group" {
   description = "Name of security group"
-  default = "Prod-Astrovidhi-SG"
+  default = "Prod-myproperty-SG"
 }
 
 variable "tag_name" {
   description = "Tag Name of for Ec2 instance"
-  default = "prod-api.astrocure.co.in"
+  default = "prod-api.myproperty.in"
 }
 
 variable "ami_id" {
