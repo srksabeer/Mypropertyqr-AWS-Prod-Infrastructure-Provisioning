@@ -1,4 +1,4 @@
-
+/*
 # Create Prod myproperty Backend-S3.
 module "Backend-S3" {
   source = "./Modules/Backend-S3"
@@ -10,7 +10,7 @@ module "DYNAMODB" {
   source = "./Modules/DYNAMODB"
 }
 
-
+*/
 
 # Create Prod myproperty  VPC..
 module "VPC" {
