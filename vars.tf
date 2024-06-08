@@ -46,7 +46,7 @@ type = string
 
 variable "key_name" {
   description = " credentials keys to connect to ec2 instance"
-  default = "Prod-API-Astrocure"
+  default = "Prod-API-myproperty"
 }
 
 variable "instance_type" {
