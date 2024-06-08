@@ -2,7 +2,7 @@ name: 'prod Terraform plan.'
 
 on:
   push:
-    branches: [ "astrovidhi-prod" ]
+    branches: [ "myproperty-prod" ]
   pull_request:
 
 jobs:
