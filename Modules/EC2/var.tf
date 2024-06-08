@@ -9,7 +9,7 @@ variable "instance_type" {
 }
 
 variable "prod-api_key_name" {
-  default = "Prod-API-Astrocure"
+  default = "Prod-API-myproperty"
 }
 
 variable "vpc_id" {
