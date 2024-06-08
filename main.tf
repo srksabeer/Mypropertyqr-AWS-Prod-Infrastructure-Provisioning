@@ -12,7 +12,6 @@ module "DYNAMODB" {
 
 */
 
-/*
 
 # Create Prod myproperty  VPC..
 module "VPC" {
@@ -31,6 +30,5 @@ module "VPC" {
   private-subnet-1-route-table-association_id = module.VPC.vpc_id
   }
 
-*/
 
 
